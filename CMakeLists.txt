@@ -13,7 +13,7 @@ include(FetchContent)
 set(SPHINX_THEME_DIR ${CMAKE_BINARY_DIR}/theme)
 
 FetchContent_Declare(sphinx-theme
-    GIT_REPOSITORY https://github.com/opencor/sphinx-theme
+    GIT_REPOSITORY https://github.com/dbrnz/sphinx-theme
     SOURCE_DIR ${SPHINX_THEME_DIR}
 )
 
